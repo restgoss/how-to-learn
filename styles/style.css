@@ -294,20 +294,18 @@
   font-weight: 600;
 }
 
+
 .footer {
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
   min-height: 350px;
   display: flex;
-  background-color: #1f1f1f;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 0 auto 0 auto;
-  color: #fff;
-  box-sizing: border-box;
-
+  justify-content: center;
 }
 
 .footer__columns {
-  margin: 60px auto 40px auto;
   display: flex;
   justify-content: space-between;
   width: 90%;
@@ -320,51 +318,54 @@
   justify-content: space-between;
 }
 
-.logo_place_footer {
-  width: 228px;
-  height: 32px;
-}
-
-.footer__author {
-  margin: 18px 0 18px 0;
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.footer__column-links {
-  margin: 0;
-  padding: 0;
-  text-align: left;
-  list-style-type: none;
-  line-height: 30px;
-  text-decoration: none;
   font-size: 18px;
-  font-weight: normal;
-  color: #fff;
-}
-
-.footer__column-heading {
-  margin-top: 0;
-  margin-bottom: 20px;
   line-height: 30px;
-  font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.logo_place_footer {
+  background-image: url(../images/logo_place_footer.svg);
+}
+
+.footer__autor {
+  color: white;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+.footer__column-heading {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__column-links {
+  margin-top: 0;
+  margin-bottom: 16px;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .footer__social-icon {
-  height: 16px;
   width: 16px;
-  margin-right: 10px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.footer__column-link {
+  text-decoration: none;
+  color: white;
 }
