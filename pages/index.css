@@ -90,6 +90,7 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 
 
 /* footer styles */
@@ -136,7 +137,7 @@
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
 @import url(../blocks/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/two-columns/__paragraph/two-colums__paragraph.css);
-@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css); 
+@import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 
 
 /* link */
@@ -148,20 +149,3 @@
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

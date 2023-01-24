@@ -2,4 +2,5 @@
     overflow: hidden;
     position: relative;
     background-color: #1f1f1f;
+    z-index: 1;
   }
